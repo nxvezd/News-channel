@@ -1,0 +1,225 @@
+<html>
+	<head>
+		
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="website-header">
+				<img src="logo2.jpeg">
+				<h1>MEDIA ONE</h1>
+			</div>
+  
+    <ul class="navbar-nav">
+      <li >
+        <a href="#">HOME</a>
+      </li>
+      <li>
+        <a href="#">POLITICS</a>
+      </li>
+      <li >
+        <a href="#">WORLD</a>
+      </li> 
+		<li>
+        <a  href="#">BUSINESS</a>
+      </li>`
+      <li>
+        <a  href="#">TRAVEL</a>
+      </li>
+      <li>
+        <a href="#">TECHNOLOGY</a>
+      </li> 
+		<li>
+        <a  href="#">SPORT</a>
+      </li>
+      <li>
+        <a  href="login page.html"><button type="button">SIGN UP</button>
+      </li>
+      <li>
+        <a  href="login page.html"><button type="button">LOGIN</button>
+      </li> 
+    </ul>
+  </div> 
+			<div class="breaking-news-section">
+				<span id="btext">Breaking News</span>
+				<marquee direction="left">
+					<a href="#" class="breaking-news"><p class="bntime">30 NOV 2022</p>Twitter rolls back COVID misinformation Policy</a>
+					<a href="#" class="breaking-news"><p class="bntime">30 NOV 2022</p>Cyber Attack in AIIMS Delhi</a>
+					<a href="#" class="breaking-news"><p class="bntime">30 NOV 2022</p>FIFA WORLD CUP LIVE:Must win match for Argentina</a>
+				</marquee>
+			</div>
+		</header>
+		<main>
+			<article> 
+				<div id="popular-news">
+				<div id="featured">
+					<h2>FEATURED</h2>
+					<img src="hos.jpeg">
+					<p>Hackers demand Rs 200 crore in cryptocurrency from AIIMS-Delhi as server remains down for day 6</p>
+				</div>
+				</div>
+				<div id="latest">
+					<h2>LATEST</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="sports.jpeg">
+							<p>Argentina suffered one of the World Cup's greatest shocks as Saudi Arabia came from behind to win 2-1 at Lusail Stadium on Tuesday </p>				
+						</div>						
+					</section>
+					<section class="news">
+						<div class="news-container">
+							<img src="china.jpeg">
+							<p>China builds makeshift hospitals, quarantine sites in Guangzhou amid rising Covid cases.
+								China reported 38,645 new Covid-19 infections on Monday</p>			
+						</div>						
+					</section>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+
+    <center><h3>Login Here</h3>
+      <table>
+        <tr>
+          <td>Username:</td>
+          <td><input type="text" name="user" placeholder="Enter name Here"></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="user_pass" placeholder="Enter Password Here"></td>
+        </tr>
+        
+        <tr>
+           <td><input type="submit" name="submit" value="Login"></td>
+           <td><p>Not yet a Member? <a href="register.html">Register</a></p></td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+header{	
+	background-color: black;
+	color:white;
+}
+.website-header{
+	padding: 20px;
+	height: 80px;
+}
+.website-header img{
+	width: 70px;
+	height: 50px;	
+	margin: 0 30px;
+}
+nav{
+	background-color: black;
+	height: 50px;
+	margin-bottom: 20px;
+}
+nav ul{
+	margin: 20px 0 0 0;
+}
+.navbar-nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.navbar-nav li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.navbar-nav li a:hover{
+	color:#e08b6c;
+}
+.breaking-news-section{
+	padding: 0 30px 0 60px;
+	display: flex;
+}
+#btext{
+	width: 200px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#e08b6c;
+	margin: auto 0;
+}
+.breaking-news{
+	padding: 30px;
+	color: #fff;
+	text-decoration: none;	
+	font-weight: 800;
+}
+#popular-news{
+	font-size: 40px;
+}
+.bntime{
+	display: inline-block;
+	color: rgba(255,255,255,0.5);
+	padding: 0 10px;
+	font-size: 12px;
+}
+#featured h2{
+	background-color: black;
+	text-align: center;
+}
+#latest h2{
+	background-color: black;
+	text-align: center;
+}
+.latest-news
+{
+	display: flex;
+	margin: 30px 5%;
+	padding: 40px;
+}
+#popular-news img{
+	width: 50%;
+}
+#latest img{
+	width: 50%;
+}
+.news-container{
+	font-size: 40px;
+}
+.news-container{
+	bottom: 10px;
+	text-size-adjust: auto;
+}
+
